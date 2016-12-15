@@ -1,0 +1,54 @@
+2016-12-15 13:05:04,800 - Driver - INFO - FrameWork Execution started 
+2016-12-15 13:05:05,570 - Suite - INFO - ScriptCount:3 
+2016-12-15 13:05:12,835 - Suite - INFO - Executing the script:script1 
+2016-12-15 13:05:13,115 - Script - INFO - Description:Enter the username 
+2016-12-15 13:05:53,306 - Suite - INFO - Script execution fail:org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//input[@id='txtUsernam']"}
+Command duration or timeout: 40.12 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'Vikas-PC', ip: '127.0.0.1', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_45'
+*** Element info: {Using=xpath, value=//input[@id='txtUsernam']}
+Session ID: 0a2815e8-6d6c-4be8-a622-c9b6fb2ad77f
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0}] 
+2016-12-15 13:05:53,312 - Suite - INFO - End of the script:script1 
+2016-12-15 13:06:00,194 - Suite - INFO - Executing the script:script2 
+2016-12-15 13:06:00,491 - Script - INFO - Description:Enter the username 
+2016-12-15 13:06:00,772 - Script - INFO - Description:Enter the password 
+2016-12-15 13:06:01,355 - Script - INFO - Description:click login button 
+2016-12-15 13:06:03,000 - Script - INFO - Description:click on welcome 
+2016-12-15 13:06:03,260 - Script - INFO - Description:click logout button 
+2016-12-15 13:06:03,823 - Suite - INFO - End of the script:script2 
+2016-12-15 13:06:03,823 - Suite - INFO - End of the script:script2 
+2016-12-15 13:06:03,866 - Suite - INFO - Not executing the script:script3 
+2016-12-15 13:06:03,867 - Suite - INFO - Total pass:1 
+2016-12-15 13:06:03,868 - Suite - INFO - Totla Fail:1 
+2016-12-15 13:06:03,868 - Suite - INFO - Total Skip:1 
+2016-12-15 13:06:03,868 - Driver - INFO - FrameWork Execution Ended 
+2016-12-15 13:11:53,033 - Driver - INFO - FrameWork Execution started 
+2016-12-15 13:11:53,697 - Suite - INFO - ScriptCount:3 
+2016-12-15 13:12:00,905 - Suite - INFO - Executing the script:script1 
+2016-12-15 13:12:01,155 - Script - INFO - Description:Enter the username 
+2016-12-15 13:12:41,215 - Suite - INFO - Script execution fail:org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//input[@id='txtUsernam']"}
+Command duration or timeout: 40.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'Vikas-PC', ip: '127.0.0.1', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_45'
+*** Element info: {Using=xpath, value=//input[@id='txtUsernam']}
+Session ID: 7930c475-35dd-4969-b57f-62517dc8ef5a
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0}] 
+2016-12-15 13:12:41,215 - Suite - INFO - End of the script:script1 
+2016-12-15 13:12:47,773 - Suite - INFO - Executing the script:script2 
+2016-12-15 13:12:47,979 - Script - INFO - Description:Enter the username 
+2016-12-15 13:12:48,296 - Script - INFO - Description:Enter the password 
+2016-12-15 13:12:48,899 - Script - INFO - Description:click login button 
+2016-12-15 13:12:50,523 - Script - INFO - Description:click on welcome 
+2016-12-15 13:12:50,797 - Script - INFO - Description:click logout button 
+2016-12-15 13:12:51,338 - Suite - INFO - End of the script:script2 
+2016-12-15 13:12:51,339 - Suite - INFO - End of the script:script2 
+2016-12-15 13:12:51,377 - Suite - INFO - Not executing the script:script3 
+2016-12-15 13:12:51,378 - Suite - INFO - Total pass:1 
+2016-12-15 13:12:51,379 - Suite - INFO - Totla Fail:1 
+2016-12-15 13:12:51,380 - Suite - INFO - Total Skip:1 
+2016-12-15 13:12:51,381 - Driver - INFO - FrameWork Execution Ended 
