@@ -15,11 +15,20 @@ public class Step {
 		}
 		else if(action.equalsIgnoreCase("click")){
 			driver.findElement(By.xpath(input1)).click();}
+		else if(action.equalsIgnoreCase("verifyElementPresent")){
+			
+			Action.verifyElementPresent(driver, input1);
+		}
+		else if(action.equalsIgnoreCase("verifyElementNotPresent")){
+			
+			Action.verifyElementNotPresent(driver, input1);
+		}
+		else{
+			throw new InvalidActionException("invalid action:"+action);
+		}
 		
 		
-	else{
-		throw new InvalidActionException("invalid action:"+action);
-	}
+	
 	}
 
 }
