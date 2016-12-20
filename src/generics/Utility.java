@@ -1,8 +1,12 @@
 package generics;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
@@ -31,6 +35,24 @@ public class Utility {
 		}
 		
 		
+	}
+	public static String getPropertyValue(String path, String key)
+	{
+		l.info("Reading property file:"+path);
+		l.info("Reading key:"+path);
+		String v="";
+		try{
+			Properties p=new Properties();
+			p.load(new FileInputStream(path));
+			v=p.getProperty(key);
+			l.info("key value is:"+v);
+		}
+			catch(Exception e)
+			{
+				l.error("Exception while reading key frame property file");
+				
+		}
+		return v;
 	}
 
 }

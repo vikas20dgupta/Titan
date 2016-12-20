@@ -33,8 +33,9 @@ public class Suite {
 				
 				WebDriver driver=new FirefoxDriver();
 				driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
-				driver.get("http://127.0.0.1:8082/orangehrm/symfony/web/index.php/auth/login");
-				
+				//driver.get("http://127.0.0.1:8082/orangehrm/symfony/web/index.php/auth/login");
+				String url=Utility.getPropertyValue("./setting.properties", "URL");
+				driver.get(url);
 				l.info("Executing the script:"+scriptName);
 				try{
 					Script.executeScript(driver,scriptName);
