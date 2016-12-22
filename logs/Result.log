@@ -1,139 +1,501 @@
-2016-12-19 14:35:12,834 - Driver - INFO - FrameWork Execution started 
-2016-12-19 14:35:13,644 - Suite - INFO - ScriptCount:3 
-2016-12-19 14:35:22,976 - Suite - INFO - Executing the script:script1 
-2016-12-19 14:35:23,346 - Script - INFO - Description:Enter the username 
-2016-12-19 14:36:03,427 - Suite - INFO - Script execution fail:org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//input[@id='txtUsernam']"}
+2016-12-21 16:11:07,810 - Driver - INFO - FrameWork Execution started 
+2016-12-21 16:11:08,620 - Suite - INFO - ScriptCount:5 
+2016-12-21 16:11:08,712 - Suite - INFO - Not executing the script:script1 
+2016-12-21 16:11:08,795 - Suite - INFO - Not executing the script:script2 
+2016-12-21 16:11:08,872 - Suite - INFO - Not executing the script:script3 
+2016-12-21 16:11:08,947 - Suite - INFO - Not executing the script:verifyLoginPage 
+2016-12-21 16:11:16,666 - Utility - INFO - Reading property file:./setting.properties 
+2016-12-21 16:11:16,667 - Utility - INFO - Reading key:./setting.properties 
+2016-12-21 16:11:16,668 - Utility - INFO - key value is:http:192.168.229.128/dolibarr-3.3.1/htdocs/index.php 
+2016-12-21 16:11:17,486 - Suite - INFO - Executing the script:loginLogout 
+2016-12-21 16:11:17,595 - Suite - INFO - End of the script:loginLogout 
+2016-12-21 16:11:17,595 - Suite - INFO - End of the script:loginLogout 
+2016-12-21 16:11:17,609 - Suite - INFO - Total pass:1 
+2016-12-21 16:11:17,610 - Suite - INFO - Totla Fail:0 
+2016-12-21 16:11:17,610 - Suite - INFO - Total Skip:4 
+2016-12-21 16:11:17,611 - Suite - INFO - Name of passed script=[loginLogout] 
+2016-12-21 16:11:17,612 - Driver - INFO - FrameWork Execution Ended 
+2016-12-21 16:17:29,267 - Driver - INFO - FrameWork Execution started 
+2016-12-21 16:17:30,044 - Suite - INFO - ScriptCount:5 
+2016-12-21 16:17:30,132 - Suite - INFO - Not executing the script:script1 
+2016-12-21 16:17:30,215 - Suite - INFO - Not executing the script:script2 
+2016-12-21 16:17:30,292 - Suite - INFO - Not executing the script:script3 
+2016-12-21 16:17:30,365 - Suite - INFO - Not executing the script:verifyLoginPage 
+2016-12-21 16:17:41,964 - Utility - INFO - Reading property file:./setting.properties 
+2016-12-21 16:17:41,965 - Utility - INFO - Reading key:./setting.properties 
+2016-12-21 16:17:41,966 - Utility - INFO - key value is:http:192.168.229.128/dolibarr-3.3.1/htdocs/index.php 
+2016-12-21 16:17:43,203 - Suite - INFO - Executing the script:loginLogout 
+2016-12-21 16:17:43,327 - Suite - INFO - End of the script:loginLogout 
+2016-12-21 16:17:43,328 - Suite - INFO - End of the script:loginLogout 
+2016-12-21 16:17:43,355 - Suite - INFO - Total pass:1 
+2016-12-21 16:17:43,356 - Suite - INFO - Totla Fail:0 
+2016-12-21 16:17:43,356 - Suite - INFO - Total Skip:4 
+2016-12-21 16:17:43,356 - Suite - INFO - Name of passed script=[loginLogout] 
+2016-12-21 16:17:43,358 - Driver - INFO - FrameWork Execution Ended 
+2016-12-21 16:40:17,098 - Driver - INFO - FrameWork Execution started 
+2016-12-21 16:40:17,819 - Suite - INFO - ScriptCount:5 
+2016-12-21 16:40:17,904 - Suite - INFO - Not executing the script:script1 
+2016-12-21 16:40:17,974 - Suite - INFO - Not executing the script:script2 
+2016-12-21 16:40:18,044 - Suite - INFO - Not executing the script:script3 
+2016-12-21 16:40:18,109 - Suite - INFO - Not executing the script:verifyLoginPage 
+2016-12-21 16:40:26,711 - Utility - INFO - Reading property file:./setting.properties 
+2016-12-21 16:40:26,711 - Utility - INFO - Reading key:./setting.properties 
+2016-12-21 16:40:26,713 - Utility - INFO - key value is:http:192.168.229.128/dolibarr-3.3.1/htdocs/index.php 
+2016-12-21 16:40:27,481 - Suite - INFO - Executing the script:loginLogout 
+2016-12-21 16:40:27,583 - Suite - INFO - End of the script:loginLogout 
+2016-12-21 16:40:27,584 - Suite - INFO - End of the script:loginLogout 
+2016-12-21 16:40:27,597 - Suite - INFO - Total pass:1 
+2016-12-21 16:40:27,597 - Suite - INFO - Totla Fail:0 
+2016-12-21 16:40:27,598 - Suite - INFO - Total Skip:4 
+2016-12-21 16:40:27,598 - Suite - INFO - Name of passed script=[loginLogout] 
+2016-12-21 16:40:27,600 - Driver - INFO - FrameWork Execution Ended 
+2016-12-21 16:43:15,618 - Driver - INFO - FrameWork Execution started 
+2016-12-21 16:43:16,309 - Suite - INFO - ScriptCount:5 
+2016-12-21 16:43:16,394 - Suite - INFO - Not executing the script:script1 
+2016-12-21 16:43:16,459 - Suite - INFO - Not executing the script:script2 
+2016-12-21 16:43:16,524 - Suite - INFO - Not executing the script:script3 
+2016-12-21 16:43:16,585 - Suite - INFO - Not executing the script:verifyLoginPage 
+2016-12-21 16:43:24,202 - Utility - INFO - Reading property file:./setting.properties 
+2016-12-21 16:43:24,203 - Utility - INFO - Reading key:./setting.properties 
+2016-12-21 16:43:24,203 - Utility - INFO - key value is:http:192.168.229.128/dolibarr-3.3.1/htdocs/index.php 
+2016-12-21 16:43:24,968 - Suite - INFO - Executing the script:loginLogout 
+2016-12-21 16:43:25,066 - Suite - INFO - End of the script:loginLogout 
+2016-12-21 16:43:25,067 - Suite - INFO - End of the script:loginLogout 
+2016-12-21 16:43:25,080 - Suite - INFO - Total pass:1 
+2016-12-21 16:43:25,081 - Suite - INFO - Totla Fail:0 
+2016-12-21 16:43:25,081 - Suite - INFO - Total Skip:4 
+2016-12-21 16:43:25,081 - Suite - INFO - Name of passed script=[loginLogout] 
+2016-12-21 16:43:25,083 - Driver - INFO - FrameWork Execution Ended 
+2016-12-21 16:49:08,123 - Driver - INFO - FrameWork Execution started 
+2016-12-21 16:49:08,908 - Suite - INFO - ScriptCount:5 
+2016-12-21 16:49:09,006 - Suite - INFO - Not executing the script:script1 
+2016-12-21 16:49:09,073 - Suite - INFO - Not executing the script:script2 
+2016-12-21 16:49:09,148 - Suite - INFO - Not executing the script:script3 
+2016-12-21 16:49:09,213 - Suite - INFO - Not executing the script:verifyLoginPage 
+2016-12-21 16:49:17,537 - Utility - INFO - Reading property file:./setting.properties 
+2016-12-21 16:49:17,539 - Utility - INFO - Reading key:./setting.properties 
+2016-12-21 16:49:17,540 - Utility - INFO - key value is:http:192.168.229.128/dolibarr-3.3.1/htdocs/index.php 
+2016-12-21 16:49:18,243 - Suite - INFO - Executing the script:loginLogout 
+2016-12-21 16:49:18,343 - Script - INFO - Total No of steps0 
+2016-12-21 16:49:18,343 - Suite - INFO - End of the script:loginLogout 
+2016-12-21 16:49:18,344 - Suite - INFO - End of the script:loginLogout 
+2016-12-21 16:49:18,357 - Suite - INFO - Total pass:1 
+2016-12-21 16:49:18,358 - Suite - INFO - Totla Fail:0 
+2016-12-21 16:49:18,358 - Suite - INFO - Total Skip:4 
+2016-12-21 16:49:18,360 - Suite - INFO - Name of passed script=[loginLogout] 
+2016-12-21 16:49:18,360 - Driver - INFO - FrameWork Execution Ended 
+2016-12-21 16:51:46,618 - Driver - INFO - FrameWork Execution started 
+2016-12-21 16:51:47,338 - Suite - INFO - ScriptCount:5 
+2016-12-21 16:51:47,419 - Suite - INFO - Not executing the script:script1 
+2016-12-21 16:51:47,494 - Suite - INFO - Not executing the script:script2 
+2016-12-21 16:51:47,559 - Suite - INFO - Not executing the script:script3 
+2016-12-21 16:51:54,708 - Utility - INFO - Reading property file:./setting.properties 
+2016-12-21 16:51:54,709 - Utility - INFO - Reading key:./setting.properties 
+2016-12-21 16:51:54,710 - Utility - INFO - key value is:http:192.168.229.128/dolibarr-3.3.1/htdocs/index.php 
+2016-12-21 16:51:55,397 - Suite - INFO - Executing the script:loginLogout 
+2016-12-21 16:51:55,476 - Script - INFO - Total No of steps0 
+2016-12-21 16:51:55,477 - Suite - INFO - End of the script:loginLogout 
+2016-12-21 16:51:55,477 - Suite - INFO - End of the script:loginLogout 
+2016-12-21 16:51:55,556 - Suite - INFO - Not executing the script:verifyLoginPage 
+2016-12-21 16:51:55,557 - Suite - INFO - Total pass:1 
+2016-12-21 16:51:55,558 - Suite - INFO - Totla Fail:0 
+2016-12-21 16:51:55,559 - Suite - INFO - Total Skip:4 
+2016-12-21 16:51:55,561 - Suite - INFO - Name of passed script=[loginLogout] 
+2016-12-21 16:51:55,561 - Driver - INFO - FrameWork Execution Ended 
+2016-12-21 16:53:19,994 - Driver - INFO - FrameWork Execution started 
+2016-12-21 16:53:20,709 - Suite - INFO - ScriptCount:5 
+2016-12-21 16:53:20,794 - Suite - INFO - Not executing the script:script1 
+2016-12-21 16:53:20,854 - Suite - INFO - Not executing the script:script2 
+2016-12-21 16:53:20,909 - Suite - INFO - Not executing the script:script3 
+2016-12-21 16:53:30,271 - Utility - INFO - Reading property file:./setting.properties 
+2016-12-21 16:53:30,274 - Utility - INFO - Reading key:./setting.properties 
+2016-12-21 16:53:30,275 - Utility - INFO - key value is:http:192.168.229.128/dolibarr-3.3.1/htdocs/index.php 
+2016-12-21 16:53:32,119 - Suite - INFO - Executing the script:verifyLoginPage 
+2016-12-21 16:53:32,194 - Script - INFO - Total No of steps3 
+2016-12-21 16:53:32,501 - Script - INFO - Description:verify Logintext box is displayed 
+2016-12-21 16:53:32,674 - Action - INFO - Element is present and displayed 
+2016-12-21 16:53:32,912 - Script - INFO - Description:verify password is displayed 
+2016-12-21 16:53:32,935 - Action - INFO - Element is present and displayed 
+2016-12-21 16:53:33,077 - Script - INFO - Description:verify connection button is displayed 
+2016-12-21 16:54:13,098 - generics.ElementNotPresentException - ERROR - Element is Not present 
+2016-12-21 16:54:13,098 - Suite - INFO - Script execution fail:generics.ElementNotPresentException 
+2016-12-21 16:54:13,194 - Suite - INFO - End of the script:verifyLoginPage 
+2016-12-21 16:54:21,498 - Utility - INFO - Reading property file:./setting.properties 
+2016-12-21 16:54:21,499 - Utility - INFO - Reading key:./setting.properties 
+2016-12-21 16:54:21,501 - Utility - INFO - key value is:http:192.168.229.128/dolibarr-3.3.1/htdocs/index.php 
+2016-12-21 16:54:22,218 - Suite - INFO - Executing the script:loginLogout 
+2016-12-21 16:54:22,280 - Script - INFO - Total No of steps0 
+2016-12-21 16:54:22,281 - Suite - INFO - End of the script:loginLogout 
+2016-12-21 16:54:22,282 - Suite - INFO - End of the script:loginLogout 
+2016-12-21 16:54:22,294 - Suite - INFO - Total pass:1 
+2016-12-21 16:54:22,295 - Suite - INFO - Totla Fail:1 
+2016-12-21 16:54:22,295 - Suite - INFO - Total Skip:3 
+2016-12-21 16:54:22,295 - Suite - INFO - Name of passed script=[loginLogout] 
+2016-12-21 16:54:22,296 - Suite - INFO - Name of failed Script=verifyLoginPage 
+2016-12-21 16:54:22,296 - Driver - INFO - FrameWork Execution Ended 
+2016-12-21 21:05:49,732 - Driver - INFO - FrameWork Execution started 
+2016-12-21 21:05:50,679 - Suite - INFO - ScriptCount:5 
+2016-12-21 21:05:50,771 - Suite - INFO - Not executing the script:script1 
+2016-12-21 21:05:50,846 - Suite - INFO - Not executing the script:script2 
+2016-12-21 21:05:50,932 - Suite - INFO - Not executing the script:script3 
+2016-12-21 21:06:26,333 - Utility - INFO - Reading property file:./setting.properties 
+2016-12-21 21:06:26,334 - Utility - INFO - Reading key:./setting.properties 
+2016-12-21 21:06:26,334 - Utility - INFO - key value is:http:192.168.229.128/dolibarr-3.3.1/htdocs/index.php 
+2016-12-21 21:06:29,364 - Suite - INFO - Executing the script:verifyLoginPage 
+2016-12-21 21:06:29,641 - Script - INFO - Total No of steps3 
+2016-12-21 21:06:29,955 - Script - INFO - Description:verify Logintext box is displayed 
+2016-12-21 21:06:30,581 - Action - INFO - Element is present and displayed 
+2016-12-21 21:06:30,800 - Script - INFO - Description:verify password is displayed 
+2016-12-21 21:06:30,825 - Action - INFO - Element is present and displayed 
+2016-12-21 21:06:31,015 - Script - INFO - Description:verify connection button is displayed 
+2016-12-21 21:07:11,033 - generics.ElementNotPresentException - ERROR - Element is Not present 
+2016-12-21 21:07:11,035 - Suite - INFO - Script execution fail:generics.ElementNotPresentException 
+2016-12-21 21:07:11,264 - Suite - INFO - End of the script:verifyLoginPage 
+2016-12-21 21:07:24,728 - Utility - INFO - Reading property file:./setting.properties 
+2016-12-21 21:07:24,728 - Utility - INFO - Reading key:./setting.properties 
+2016-12-21 21:07:24,729 - Utility - INFO - key value is:http:192.168.229.128/dolibarr-3.3.1/htdocs/index.php 
+2016-12-21 21:07:37,059 - Suite - INFO - Executing the script:loginLogout 
+2016-12-21 21:07:37,109 - Script - INFO - Total No of steps2 
+2016-12-21 21:07:37,320 - Script - INFO - Description:Enter the valid user name 
+2016-12-21 21:07:37,547 - Suite - INFO - Script execution fail:org.openqa.selenium.InvalidSelectorException: The given selector  is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: The expression is not a legal expression.
+Command duration or timeout: 19 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'Vikas-PC', ip: '192.168.203.1', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_45'
+*** Element info: {Using=xpath, value=}
+Session ID: 68b9fa9f-19c5-40d4-a890-1a23bf92dc49
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0}] 
+2016-12-21 21:07:37,635 - Suite - INFO - End of the script:loginLogout 
+2016-12-21 21:07:37,686 - Suite - INFO - Total pass:0 
+2016-12-21 21:07:37,686 - Suite - INFO - Totla Fail:2 
+2016-12-21 21:07:37,687 - Suite - INFO - Total Skip:3 
+2016-12-21 21:07:37,687 - Suite - INFO - Name of failed Script=verifyLoginPage 
+2016-12-21 21:07:37,687 - Suite - INFO - Name of failed Script=loginLogout 
+2016-12-21 21:07:37,688 - Driver - INFO - FrameWork Execution Ended 
+2016-12-21 21:12:08,941 - Driver - INFO - FrameWork Execution started 
+2016-12-21 21:12:09,701 - Suite - INFO - ScriptCount:5 
+2016-12-21 21:12:09,793 - Suite - INFO - Not executing the script:script1 
+2016-12-21 21:12:09,868 - Suite - INFO - Not executing the script:script2 
+2016-12-21 21:12:09,952 - Suite - INFO - Not executing the script:script3 
+2016-12-21 21:12:17,818 - Utility - INFO - Reading property file:./setting.properties 
+2016-12-21 21:12:17,819 - Utility - INFO - Reading key:./setting.properties 
+2016-12-21 21:12:17,820 - Utility - INFO - key value is:http:192.168.229.128/dolibarr-3.3.1/htdocs/index.php 
+2016-12-21 21:12:18,649 - Suite - INFO - Executing the script:verifyLoginPage 
+2016-12-21 21:12:18,740 - Script - INFO - Total No of steps3 
+2016-12-21 21:12:19,106 - Script - INFO - Description:verify Logintext box is displayed 
+2016-12-21 21:12:19,295 - Action - INFO - Element is present and displayed 
+2016-12-21 21:12:19,543 - Script - INFO - Description:verify password is displayed 
+2016-12-21 21:12:19,572 - Action - INFO - Element is present and displayed 
+2016-12-21 21:12:19,766 - Script - INFO - Description:verify connection button is displayed 
+2016-12-21 21:12:59,783 - generics.ElementNotPresentException - ERROR - Element is Not present 
+2016-12-21 21:12:59,785 - Suite - INFO - Script execution fail:generics.ElementNotPresentException 
+2016-12-21 21:12:59,889 - Suite - INFO - End of the script:verifyLoginPage 
+2016-12-21 21:13:07,038 - Utility - INFO - Reading property file:./setting.properties 
+2016-12-21 21:13:07,039 - Utility - INFO - Reading key:./setting.properties 
+2016-12-21 21:13:07,043 - Utility - INFO - key value is:http:192.168.229.128/dolibarr-3.3.1/htdocs/index.php 
+2016-12-21 21:13:07,850 - Suite - INFO - Executing the script:loginLogout 
+2016-12-21 21:13:07,892 - Script - INFO - Total No of steps4 
+2016-12-21 21:13:08,074 - Script - INFO - Description:Enter the valid user name 
+2016-12-21 21:13:08,347 - Script - INFO - Description:Enter the valid password 
+2016-12-21 21:13:09,106 - Script - INFO - Description:click on login button 
+2016-12-21 21:13:49,211 - Suite - INFO - Script execution fail:org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//input[contains(@value,'contains')]"}
 Command duration or timeout: 40.06 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'Vikas-PC', ip: '192.168.0.9', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_45'
-*** Element info: {Using=xpath, value=//input[@id='txtUsernam']}
-Session ID: a541fd1e-e50a-4338-9669-5edbc002460f
+System info: host: 'Vikas-PC', ip: '192.168.203.1', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_45'
+*** Element info: {Using=xpath, value=//input[contains(@value,'contains')]}
+Session ID: 2fb0babf-5be5-4fc8-a990-787c70e823ed
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0}] 
-2016-12-19 14:36:03,680 - Suite - INFO - End of the script:script1 
-2016-12-19 14:36:11,986 - Suite - INFO - Executing the script:script2 
-2016-12-19 14:36:12,277 - Script - INFO - Description:Enter the username 
-2016-12-19 14:36:12,611 - Script - INFO - Description:Enter the password 
-2016-12-19 14:36:13,432 - Script - INFO - Description:click login button 
-2016-12-19 14:36:15,339 - Script - INFO - Description:click on welcome 
-2016-12-19 14:36:15,650 - Script - INFO - Description:click logout button 
-2016-12-19 14:36:15,769 - Suite - INFO - End of the script:script2 
-2016-12-19 14:36:15,770 - Suite - INFO - End of the script:script2 
-2016-12-19 14:36:16,378 - Suite - INFO - Not executing the script:script3 
-2016-12-19 14:36:16,378 - Suite - INFO - Total pass:1 
-2016-12-19 14:36:16,379 - Suite - INFO - Totla Fail:1 
-2016-12-19 14:36:16,380 - Suite - INFO - Total Skip:1 
-2016-12-19 14:36:16,380 - Suite - INFO - Name of passed script=[script2] 
-2016-12-19 14:36:16,380 - Suite - INFO - Name of failed Script=script1 
-2016-12-19 14:36:16,380 - Driver - INFO - FrameWork Execution Ended 
-2016-12-19 14:37:16,813 - Driver - INFO - FrameWork Execution started 
-2016-12-19 14:37:17,593 - Suite - INFO - ScriptCount:3 
-2016-12-19 14:37:26,001 - Suite - INFO - Executing the script:script1 
-2016-12-19 14:37:26,312 - Script - INFO - Description:Enter the username 
-2016-12-19 14:38:06,419 - Suite - INFO - Script execution fail:org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//input[@id='txtUsernam']"}
-Command duration or timeout: 40.09 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'Vikas-PC', ip: '192.168.0.9', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_45'
-*** Element info: {Using=xpath, value=//input[@id='txtUsernam']}
-Session ID: 14a75735-93c3-4365-9745-8df4177fd0e7
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0}] 
-2016-12-19 14:38:06,665 - Suite - INFO - End of the script:script1 
-2016-12-19 14:38:14,090 - Suite - INFO - Executing the script:script2 
-2016-12-19 14:38:14,394 - Script - INFO - Description:Enter the username 
-2016-12-19 14:38:14,747 - Script - INFO - Description:Enter the password 
-2016-12-19 14:38:15,507 - Script - INFO - Description:click login button 
-2016-12-19 14:38:17,382 - Script - INFO - Description:click on welcome 
-2016-12-19 14:38:17,682 - Script - INFO - Description:click logout button 
-2016-12-19 14:38:17,802 - Suite - INFO - End of the script:script2 
-2016-12-19 14:38:17,803 - Suite - INFO - End of the script:script2 
-2016-12-19 14:38:18,421 - Suite - INFO - Not executing the script:script3 
-2016-12-19 14:38:18,422 - Suite - INFO - Total pass:1 
-2016-12-19 14:38:18,424 - Suite - INFO - Totla Fail:1 
-2016-12-19 14:38:18,424 - Suite - INFO - Total Skip:1 
-2016-12-19 14:38:18,425 - Suite - INFO - Name of passed script=[script2] 
-2016-12-19 14:38:18,425 - Suite - INFO - Name of failed Script=script1 
-2016-12-19 14:38:18,425 - Driver - INFO - FrameWork Execution Ended 
-2016-12-19 14:42:34,352 - Driver - INFO - FrameWork Execution started 
-2016-12-19 14:42:35,139 - Suite - INFO - ScriptCount:3 
-2016-12-19 14:42:43,191 - Suite - INFO - Executing the script:script1 
-2016-12-19 14:42:43,485 - Script - INFO - Description:Enter the username 
-2016-12-19 14:43:23,535 - Suite - INFO - Script execution fail:org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//input[@id='txtUsernam']"}
-Command duration or timeout: 40.04 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'Vikas-PC', ip: '192.168.0.9', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_45'
-*** Element info: {Using=xpath, value=//input[@id='txtUsernam']}
-Session ID: 404534a1-f713-4b3b-9515-c17f09400cab
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0}] 
-2016-12-19 14:43:23,758 - Suite - INFO - End of the script:script1 
-2016-12-19 14:43:31,621 - Suite - INFO - Executing the script:script2 
-2016-12-19 14:43:31,872 - Script - INFO - Description:Enter the username 
-2016-12-19 14:43:32,188 - Script - INFO - Description:Enter the password 
-2016-12-19 14:43:32,958 - Script - INFO - Description:click login button 
-2016-12-19 14:43:34,829 - Script - INFO - Description:click on welcome 
-2016-12-19 14:43:35,147 - Script - INFO - Description:click logout button 
-2016-12-19 14:43:35,267 - Suite - INFO - End of the script:script2 
-2016-12-19 14:43:35,268 - Suite - INFO - End of the script:script2 
-2016-12-19 14:43:35,851 - Suite - INFO - Not executing the script:script3 
-2016-12-19 14:43:35,852 - Suite - INFO - Total pass:1 
-2016-12-19 14:43:35,853 - Suite - INFO - Totla Fail:1 
-2016-12-19 14:43:35,854 - Suite - INFO - Total Skip:1 
-2016-12-19 14:43:35,854 - Suite - INFO - Name of passed script=[script2] 
-2016-12-19 14:43:35,855 - Suite - INFO - Name of failed Script=script1 
-2016-12-19 14:43:35,855 - Driver - INFO - FrameWork Execution Ended 
-2016-12-19 14:53:10,082 - Driver - INFO - FrameWork Execution started 
-2016-12-19 14:53:10,815 - Suite - INFO - ScriptCount:3 
-2016-12-19 14:53:19,580 - Suite - INFO - Executing the script:script1 
-2016-12-19 14:53:19,944 - Script - INFO - Description:Enter the username 
-2016-12-19 14:53:59,969 - generics.ElementNotPresentException - ERROR - Element is Not present 
-2016-12-19 14:53:59,969 - Suite - INFO - Script execution fail:generics.ElementNotPresentException 
-2016-12-19 14:54:00,187 - Suite - INFO - End of the script:script1 
-2016-12-19 14:54:08,426 - Suite - INFO - Executing the script:script2 
-2016-12-19 14:54:08,680 - Script - INFO - Description:Enter the username 
-2016-12-19 14:54:09,046 - Script - INFO - Description:Enter the password 
-2016-12-19 14:54:09,749 - Script - INFO - Description:click login button 
-2016-12-19 14:54:11,707 - Script - INFO - Description:click on welcome 
-2016-12-19 14:54:12,057 - Script - INFO - Description:click logout button 
-2016-12-19 14:54:12,188 - Suite - INFO - End of the script:script2 
-2016-12-19 14:54:12,189 - Suite - INFO - End of the script:script2 
-2016-12-19 14:54:12,797 - Suite - INFO - Not executing the script:script3 
-2016-12-19 14:54:12,798 - Suite - INFO - Total pass:1 
-2016-12-19 14:54:12,798 - Suite - INFO - Totla Fail:1 
-2016-12-19 14:54:12,799 - Suite - INFO - Total Skip:1 
-2016-12-19 14:54:12,799 - Suite - INFO - Name of passed script=[script2] 
-2016-12-19 14:54:12,799 - Suite - INFO - Name of failed Script=script1 
-2016-12-19 14:54:12,799 - Driver - INFO - FrameWork Execution Ended 
-2016-12-19 14:55:06,604 - Driver - INFO - FrameWork Execution started 
-2016-12-19 14:55:07,345 - Suite - INFO - ScriptCount:3 
-2016-12-19 14:55:15,548 - Suite - INFO - Executing the script:script1 
-2016-12-19 14:55:15,872 - Script - INFO - Description:Enter the username 
-2016-12-19 14:55:55,919 - generics.ElementNotPresentException - ERROR - Element is Not present 
-2016-12-19 14:55:55,919 - Suite - INFO - Script execution fail:generics.ElementNotPresentException 
-2016-12-19 14:55:56,139 - Suite - INFO - End of the script:script1 
-2016-12-19 14:56:03,041 - Suite - INFO - Executing the script:script2 
-2016-12-19 14:56:03,308 - Script - INFO - Description:Enter the username 
-2016-12-19 14:56:03,436 - Action - INFO - Element is present and displayed 
-2016-12-19 14:56:03,584 - Script - INFO - Description:Enter the password 
-2016-12-19 14:56:03,781 - Script - INFO - Description:click login button 
-2016-12-19 14:56:03,983 - Script - INFO - Description:click on welcome 
-2016-12-19 14:56:44,079 - Suite - INFO - Script execution fail:org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[@id='welcome']"}
-Command duration or timeout: 40.09 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'Vikas-PC', ip: '192.168.0.9', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_45'
-*** Element info: {Using=xpath, value=//a[@id='welcome']}
-Session ID: 289a15fe-3828-49de-887a-c6f48fa5d3b5
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0}] 
-2016-12-19 14:56:44,224 - Suite - INFO - End of the script:script2 
-2016-12-19 14:56:44,268 - Suite - INFO - Not executing the script:script3 
-2016-12-19 14:56:44,270 - Suite - INFO - Total pass:0 
-2016-12-19 14:56:44,270 - Suite - INFO - Totla Fail:2 
-2016-12-19 14:56:44,270 - Suite - INFO - Total Skip:1 
-2016-12-19 14:56:44,270 - Suite - INFO - Name of failed Script=script1 
-2016-12-19 14:56:44,271 - Suite - INFO - Name of failed Script=script2 
-2016-12-19 14:56:44,271 - Driver - INFO - FrameWork Execution Ended 
+2016-12-21 21:13:49,285 - Suite - INFO - End of the script:loginLogout 
+2016-12-21 21:13:49,296 - Suite - INFO - Total pass:0 
+2016-12-21 21:13:49,296 - Suite - INFO - Totla Fail:2 
+2016-12-21 21:13:49,297 - Suite - INFO - Total Skip:3 
+2016-12-21 21:13:49,297 - Suite - INFO - Name of failed Script=verifyLoginPage 
+2016-12-21 21:13:49,297 - Suite - INFO - Name of failed Script=loginLogout 
+2016-12-21 21:13:49,297 - Driver - INFO - FrameWork Execution Ended 
+2016-12-21 21:17:46,212 - Driver - INFO - FrameWork Execution started 
+2016-12-21 21:17:46,974 - Suite - INFO - ScriptCount:5 
+2016-12-21 21:17:47,068 - Suite - INFO - Not executing the script:script1 
+2016-12-21 21:17:47,144 - Suite - INFO - Not executing the script:script2 
+2016-12-21 21:17:47,220 - Suite - INFO - Not executing the script:script3 
+2016-12-21 21:17:55,357 - Utility - INFO - Reading property file:./setting.properties 
+2016-12-21 21:17:55,357 - Utility - INFO - Reading key:./setting.properties 
+2016-12-21 21:17:55,358 - Utility - INFO - key value is:http:192.168.229.128/dolibarr-3.3.1/htdocs/index.php 
+2016-12-21 21:17:56,223 - Suite - INFO - Executing the script:verifyLoginPage 
+2016-12-21 21:17:56,311 - Script - INFO - Total No of steps3 
+2016-12-21 21:17:56,705 - Script - INFO - Description:verify Logintext box is displayed 
+2016-12-21 21:17:56,899 - Action - INFO - Element is present and displayed 
+2016-12-21 21:17:57,146 - Script - INFO - Description:verify password is displayed 
+2016-12-21 21:17:57,211 - Action - INFO - Element is present and displayed 
+2016-12-21 21:17:57,445 - Script - INFO - Description:verify connection button is displayed 
+2016-12-21 21:17:57,471 - Action - INFO - Element is present and displayed 
+2016-12-21 21:17:57,472 - Suite - INFO - End of the script:verifyLoginPage 
+2016-12-21 21:17:57,472 - Suite - INFO - End of the script:verifyLoginPage 
+2016-12-21 21:18:13,350 - Utility - INFO - Reading property file:./setting.properties 
+2016-12-21 21:18:13,351 - Utility - INFO - Reading key:./setting.properties 
+2016-12-21 21:18:13,352 - Utility - INFO - key value is:http:192.168.229.128/dolibarr-3.3.1/htdocs/index.php 
+2016-12-21 21:18:14,149 - Suite - INFO - Executing the script:loginLogout 
+2016-12-21 21:18:14,189 - Script - INFO - Total No of steps4 
+2016-12-21 21:18:14,369 - Script - INFO - Description:Enter the valid user name 
+2016-12-21 21:18:14,645 - Script - INFO - Description:Enter the valid password 
+2016-12-21 21:18:16,054 - Script - INFO - Description:click on login button 
+2016-12-21 21:18:22,558 - Script - INFO - Description:clickon logout button 
+2016-12-21 21:18:23,280 - Suite - INFO - End of the script:loginLogout 
+2016-12-21 21:18:23,280 - Suite - INFO - End of the script:loginLogout 
+2016-12-21 21:18:23,291 - Suite - INFO - Total pass:2 
+2016-12-21 21:18:23,291 - Suite - INFO - Totla Fail:0 
+2016-12-21 21:18:23,292 - Suite - INFO - Total Skip:3 
+2016-12-21 21:18:23,292 - Suite - INFO - Name of passed script=[verifyLoginPage, loginLogout] 
+2016-12-21 21:18:23,292 - Suite - INFO - Name of passed script=[verifyLoginPage, loginLogout] 
+2016-12-21 21:18:23,292 - Driver - INFO - FrameWork Execution Ended 
+2016-12-22 12:31:27,230 - Driver - INFO - FrameWork Execution started 
+2016-12-22 12:31:28,748 - Suite - INFO - ScriptCount:5 
+2016-12-22 12:31:28,832 - Suite - INFO - Not executing the script:script1 
+2016-12-22 12:31:28,901 - Suite - INFO - Not executing the script:script2 
+2016-12-22 12:31:28,964 - Suite - INFO - Not executing the script:script3 
+2016-12-22 12:32:00,158 - Utility - INFO - Reading property file:./setting.properties 
+2016-12-22 12:32:00,159 - Utility - INFO - Reading key:./setting.properties 
+2016-12-22 12:32:00,160 - Utility - INFO - key value is:http:192.168.229.128/dolibarr-3.3.1/htdocs/index.php 
+2016-12-22 12:32:01,365 - Suite - INFO - Executing the script:verifyLoginPage 
+2016-12-22 12:32:01,622 - Script - INFO - Total No of steps3 
+2016-12-22 12:32:01,911 - Script - INFO - Description:verify Logintext box is displayed 
+2016-12-22 12:32:02,344 - Action - INFO - Element is present and displayed 
+2016-12-22 12:32:02,539 - Script - INFO - Description:verify password is displayed 
+2016-12-22 12:32:02,562 - Action - INFO - Element is present and displayed 
+2016-12-22 12:32:02,699 - Script - INFO - Description:verify connection button is displayed 
+2016-12-22 12:32:02,721 - Action - INFO - Element is present and displayed 
+2016-12-22 12:32:02,723 - Suite - INFO - End of the script:verifyLoginPage 
+2016-12-22 12:32:02,723 - Suite - INFO - End of the script:verifyLoginPage 
+2016-12-22 12:32:13,750 - Utility - INFO - Reading property file:./setting.properties 
+2016-12-22 12:32:13,751 - Utility - INFO - Reading key:./setting.properties 
+2016-12-22 12:32:13,753 - Utility - INFO - key value is:http:192.168.229.128/dolibarr-3.3.1/htdocs/index.php 
+2016-12-22 12:32:14,897 - Suite - INFO - Executing the script:loginLogout 
+2016-12-22 12:32:14,943 - Script - INFO - Total No of steps5 
+2016-12-22 12:32:15,089 - Script - INFO - Description:Enter the valid user name 
+2016-12-22 12:32:15,512 - Script - INFO - Description:Enter the valid password 
+2016-12-22 12:32:16,894 - Script - INFO - Description:click on login button 
+2016-12-22 12:32:20,168 - Script - INFO - Description:clickon logout button 
+2016-12-22 12:32:20,456 - Script - INFO - Description:verify login title 
+2016-12-22 12:32:30,651 - generics.TitleMIsmatchException - ERROR - Title is not matching:Expected-->DolibarrActual TitleLogin Dolibarr 3.3.1 
+2016-12-22 12:32:30,651 - Suite - INFO - Script execution fail:generics.TitleMIsmatchException 
+2016-12-22 12:32:30,797 - Suite - INFO - End of the script:loginLogout 
+2016-12-22 12:32:30,797 - Suite - INFO - Total pass:1 
+2016-12-22 12:32:30,797 - Suite - INFO - Totla Fail:1 
+2016-12-22 12:32:30,797 - Suite - INFO - Total Skip:3 
+2016-12-22 12:32:30,797 - Suite - INFO - Name of passed script=[verifyLoginPage] 
+2016-12-22 12:32:30,797 - Suite - INFO - Name of failed Script=loginLogout 
+2016-12-22 12:32:30,797 - Driver - INFO - FrameWork Execution Ended 
+2016-12-22 12:50:17,628 - Driver - INFO - FrameWork Execution started 
+2016-12-22 12:50:18,352 - Suite - INFO - ScriptCount:5 
+2016-12-22 12:50:18,430 - Suite - INFO - Not executing the script:script1 
+2016-12-22 12:50:18,514 - Suite - INFO - Not executing the script:script2 
+2016-12-22 12:50:18,583 - Suite - INFO - Not executing the script:script3 
+2016-12-22 13:03:09,675 - Driver - INFO - FrameWork Execution started 
+2016-12-22 13:03:09,680 - Driver - INFO - FrameWork Execution Ended 
+2016-12-22 13:03:10,458 - Suite - INFO - ScriptCount:5 
+2016-12-22 13:03:10,463 - Suite - INFO - ScriptCount:5 
+2016-12-22 13:03:10,543 - Suite - INFO - Not executing the script:script1 
+2016-12-22 13:03:10,559 - Suite - INFO - Not executing the script:script1 
+2016-12-22 13:03:10,654 - Suite - INFO - Not executing the script:script2 
+2016-12-22 13:03:10,654 - Suite - INFO - Not executing the script:script2 
+2016-12-22 13:03:10,726 - Suite - INFO - Not executing the script:script3 
+2016-12-22 13:03:10,738 - Suite - INFO - Not executing the script:script3 
+2016-12-22 13:03:19,892 - Suite - INFO - Browser is: firefox 
+2016-12-22 13:03:19,917 - Utility - INFO - Reading property file:./setting.properties 
+2016-12-22 13:03:19,918 - Utility - INFO - Reading key:./setting.properties 
+2016-12-22 13:03:19,919 - Utility - INFO - key value is:http:192.168.229.128/dolibarr-3.3.1/htdocs/index.php 
+2016-12-22 13:03:21,041 - Suite - INFO - Executing the script:verifyLoginPage 
+2016-12-22 13:03:21,088 - Script - INFO - Total No of steps3 
+2016-12-22 13:03:21,270 - Script - INFO - Description:verify Logintext box is displayed 
+2016-12-22 13:03:21,391 - Action - INFO - Element is present and displayed 
+2016-12-22 13:03:21,544 - Script - INFO - Description:verify password is displayed 
+2016-12-22 13:03:21,569 - Action - INFO - Element is present and displayed 
+2016-12-22 13:03:21,732 - Script - INFO - Description:verify connection button is displayed 
+2016-12-22 13:03:21,755 - Action - INFO - Element is present and displayed 
+2016-12-22 13:03:21,755 - Suite - INFO - End of the script:verifyLoginPage 
+2016-12-22 13:03:21,755 - Suite - INFO - End of the script:verifyLoginPage 
+2016-12-22 13:03:29,349 - Suite - INFO - Browser is: firefox 
+2016-12-22 13:03:29,399 - Utility - INFO - Reading property file:./setting.properties 
+2016-12-22 13:03:29,400 - Utility - INFO - Reading key:./setting.properties 
+2016-12-22 13:03:29,400 - Utility - INFO - key value is:http:192.168.229.128/dolibarr-3.3.1/htdocs/index.php 
+2016-12-22 13:03:30,515 - Suite - INFO - Executing the script:loginLogout 
+2016-12-22 13:03:30,567 - Script - INFO - Total No of steps5 
+2016-12-22 13:03:30,706 - Script - INFO - Description:Enter the valid user name 
+2016-12-22 13:03:31,025 - Script - INFO - Description:Enter the valid password 
+2016-12-22 13:03:32,432 - Script - INFO - Description:click on login button 
+2016-12-22 13:03:34,072 - Script - INFO - Description:clickon logout button 
+2016-12-22 13:03:34,905 - Script - INFO - Description:verify login title 
+2016-12-22 13:03:45,186 - generics.TitleMIsmatchException - ERROR - Title is not matching:Expected-->DolibarrActual TitleLogin Dolibarr 3.3.1 
+2016-12-22 13:03:45,186 - Suite - INFO - Script execution fail:generics.TitleMIsmatchException 
+2016-12-22 13:03:45,278 - Suite - INFO - End of the script:loginLogout 
+2016-12-22 13:03:45,285 - Suite - INFO - Total pass:1 
+2016-12-22 13:03:45,285 - Suite - INFO - Totla Fail:1 
+2016-12-22 13:03:45,285 - Suite - INFO - Total Skip:3 
+2016-12-22 13:03:45,285 - Suite - INFO - Name of passed script=[verifyLoginPage] 
+2016-12-22 13:03:45,286 - Suite - INFO - Name of failed Script=loginLogout 
+2016-12-22 14:31:53,407 - Driver - INFO - FrameWork Execution started 
+2016-12-22 14:31:53,407 - Driver - INFO - FrameWork Execution Ended 
+2016-12-22 14:31:54,195 - Suite - INFO - ScriptCount:5 
+2016-12-22 14:31:54,207 - Suite - INFO - ScriptCount:5 
+2016-12-22 14:31:54,280 - Suite - INFO - Not executing the script:script1 
+2016-12-22 14:31:54,295 - Suite - INFO - Not executing the script:script1 
+2016-12-22 14:31:54,386 - Suite - INFO - Not executing the script:script2 
+2016-12-22 14:31:54,394 - Suite - INFO - Not executing the script:script2 
+2016-12-22 14:31:54,467 - Suite - INFO - Not executing the script:script3 
+2016-12-22 14:31:54,467 - Suite - INFO - Not executing the script:script3 
+2016-12-22 14:32:07,954 - Suite - INFO - Browser is: firefox 
+2016-12-22 14:32:08,411 - Utility - INFO - Reading property file:./setting.properties 
+2016-12-22 14:32:08,412 - Utility - INFO - Reading key:./setting.properties 
+2016-12-22 14:32:08,413 - Utility - INFO - key value is:http:192.168.229.128/dolibarr-3.3.1/htdocs/index.php 
+2016-12-22 14:32:09,428 - Suite - INFO - Executing the script:verifyLoginPage 
+2016-12-22 14:32:09,471 - Script - INFO - Total No of steps3 
+2016-12-22 14:32:09,681 - Script - INFO - Description:verify Logintext box is displayed 
+2016-12-22 14:32:09,868 - Action - INFO - Element is present and displayed 
+2016-12-22 14:32:09,999 - Script - INFO - Description:verify password is displayed 
+2016-12-22 14:32:10,041 - Action - INFO - Element is present and displayed 
+2016-12-22 14:32:10,197 - Script - INFO - Description:verify connection button is displayed 
+2016-12-22 14:32:10,223 - Action - INFO - Element is present and displayed 
+2016-12-22 14:32:10,223 - Suite - INFO - End of the script:verifyLoginPage 
+2016-12-22 14:32:10,223 - Suite - INFO - End of the script:verifyLoginPage 
+2016-12-22 14:32:24,329 - Suite - INFO - Browser is: firefox 
+2016-12-22 14:32:24,488 - Utility - INFO - Reading property file:./setting.properties 
+2016-12-22 14:32:24,488 - Utility - INFO - Reading key:./setting.properties 
+2016-12-22 14:32:24,488 - Utility - INFO - key value is:http:192.168.229.128/dolibarr-3.3.1/htdocs/index.php 
+2016-12-22 14:32:25,296 - Suite - INFO - Executing the script:loginLogout 
+2016-12-22 14:32:25,331 - Script - INFO - Total No of steps5 
+2016-12-22 14:32:25,470 - Script - INFO - Description:Enter the valid user name 
+2016-12-22 14:32:29,737 - Script - INFO - Description:Enter the valid password 
+2016-12-22 14:32:29,950 - Script - INFO - Description:click on login button 
+2016-12-22 14:32:32,260 - Script - INFO - Description:clickon logout button 
+2016-12-22 14:32:33,767 - Script - INFO - Description:verify login title 
+2016-12-22 14:32:44,076 - generics.TitleMIsmatchException - ERROR - Title is not matching:Expected-->DolibarrActual TitleLogin Dolibarr 3.3.1 
+2016-12-22 14:32:44,076 - Suite - INFO - Script execution fail:generics.TitleMIsmatchException 
+2016-12-22 14:32:44,161 - Suite - INFO - End of the script:loginLogout 
+2016-12-22 14:32:44,161 - Suite - INFO - Total pass:1 
+2016-12-22 14:32:44,161 - Suite - INFO - Totla Fail:1 
+2016-12-22 14:32:44,161 - Suite - INFO - Total Skip:3 
+2016-12-22 14:32:44,161 - Suite - INFO - Name of passed script=[verifyLoginPage] 
+2016-12-22 14:32:44,161 - Suite - INFO - Name of failed Script=loginLogout 
+2016-12-22 14:43:21,848 - Driver - INFO - FrameWork Execution started 
+2016-12-22 14:43:21,884 - Driver - INFO - FrameWork Execution Ended 
+2016-12-22 14:43:22,766 - Suite - INFO - ScriptCount:5 
+2016-12-22 14:43:22,766 - Suite - INFO - ScriptCount:5 
+2016-12-22 14:43:22,867 - Suite - INFO - Not executing the script:script1 
+2016-12-22 14:43:22,867 - Suite - INFO - Not executing the script:script1 
+2016-12-22 14:43:22,965 - Suite - INFO - Not executing the script:script2 
+2016-12-22 14:43:22,967 - Suite - INFO - Not executing the script:script2 
+2016-12-22 14:43:23,038 - Suite - INFO - Not executing the script:script3 
+2016-12-22 14:43:23,043 - Suite - INFO - Not executing the script:script3 
+2016-12-22 14:43:46,693 - Suite - INFO - Browser is: chrome 
+2016-12-22 14:43:46,877 - Utility - INFO - Reading property file:./setting.properties 
+2016-12-22 14:43:46,877 - Utility - INFO - Reading key:./setting.properties 
+2016-12-22 14:43:46,877 - Utility - INFO - key value is:http:192.168.229.128/dolibarr-3.3.1/htdocs/index.php 
+2016-12-22 14:43:54,512 - Suite - INFO - Executing the script:verifyLoginPage 
+2016-12-22 14:43:54,756 - Script - INFO - Total No of steps3 
+2016-12-22 14:43:54,919 - Script - INFO - Description:verify Logintext box is displayed 
+2016-12-22 14:43:55,357 - Action - INFO - Element is present and displayed 
+2016-12-22 14:43:55,505 - Script - INFO - Description:verify password is displayed 
+2016-12-22 14:43:55,542 - Action - INFO - Element is present and displayed 
+2016-12-22 14:43:55,674 - Script - INFO - Description:verify connection button is displayed 
+2016-12-22 14:43:55,743 - Action - INFO - Element is present and displayed 
+2016-12-22 14:43:55,743 - Suite - INFO - End of the script:verifyLoginPage 
+2016-12-22 14:43:55,743 - Suite - INFO - End of the script:verifyLoginPage 
+2016-12-22 14:43:59,364 - Suite - INFO - Browser is: chrome 
+2016-12-22 14:43:59,368 - Utility - INFO - Reading property file:./setting.properties 
+2016-12-22 14:43:59,368 - Utility - INFO - Reading key:./setting.properties 
+2016-12-22 14:43:59,368 - Utility - INFO - key value is:http:192.168.229.128/dolibarr-3.3.1/htdocs/index.php 
+2016-12-22 14:44:05,875 - Suite - INFO - Executing the script:loginLogout 
+2016-12-22 14:44:05,934 - Script - INFO - Total No of steps5 
+2016-12-22 14:44:06,084 - Script - INFO - Description:Enter the valid user name 
+2016-12-22 14:44:06,384 - Script - INFO - Description:Enter the valid password 
+2016-12-22 14:44:06,632 - Script - INFO - Description:click on login button 
+2016-12-22 14:44:22,000 - Script - INFO - Description:clickon logout button 
+2016-12-22 14:44:22,965 - Script - INFO - Description:verify login title 
+2016-12-22 14:44:33,167 - generics.TitleMIsmatchException - ERROR - Title is not matching:Expected-->DolibarrActual TitleLogin Dolibarr 3.3.1 
+2016-12-22 14:44:33,167 - Suite - INFO - Script execution fail:generics.TitleMIsmatchException 
+2016-12-22 14:44:34,514 - Suite - INFO - End of the script:loginLogout 
+2016-12-22 14:44:36,699 - Suite - INFO - Total pass:1 
+2016-12-22 14:44:36,699 - Suite - INFO - Totla Fail:1 
+2016-12-22 14:44:36,699 - Suite - INFO - Total Skip:3 
+2016-12-22 14:44:36,699 - Suite - INFO - Name of passed script=[verifyLoginPage] 
+2016-12-22 14:44:36,701 - Suite - INFO - Name of failed Script=loginLogout 
+2016-12-22 14:46:23,978 - Driver - INFO - FrameWork Execution started 
+2016-12-22 14:46:23,978 - Driver - INFO - FrameWork Execution Ended 
+2016-12-22 14:46:24,817 - Suite - INFO - ScriptCount:5 
+2016-12-22 14:46:24,827 - Suite - INFO - ScriptCount:5 
+2016-12-22 14:46:24,949 - Suite - INFO - Not executing the script:script1 
+2016-12-22 14:46:24,964 - Suite - INFO - Not executing the script:script1 
+2016-12-22 14:46:25,033 - Suite - INFO - Not executing the script:script2 
+2016-12-22 14:46:25,049 - Suite - INFO - Not executing the script:script2 
+2016-12-22 14:46:25,135 - Suite - INFO - Not executing the script:script3 
+2016-12-22 14:46:25,197 - Suite - INFO - Not executing the script:script3 
+2016-12-22 14:46:29,487 - Suite - INFO - Browser is: chrome 
+2016-12-22 14:46:29,497 - Utility - INFO - Reading property file:./setting.properties 
+2016-12-22 14:46:29,497 - Utility - INFO - Reading key:./setting.properties 
+2016-12-22 14:46:29,501 - Utility - INFO - key value is:http:192.168.229.128/dolibarr-3.3.1/htdocs/index.php 
+2016-12-22 14:46:32,863 - Suite - INFO - Executing the script:verifyLoginPage 
+2016-12-22 14:46:32,924 - Script - INFO - Total No of steps3 
+2016-12-22 14:46:33,155 - Script - INFO - Description:verify Logintext box is displayed 
+2016-12-22 14:46:33,228 - Action - INFO - Element is present and displayed 
+2016-12-22 14:46:33,383 - Script - INFO - Description:verify password is displayed 
+2016-12-22 14:46:33,416 - Action - INFO - Element is present and displayed 
+2016-12-22 14:46:33,551 - Script - INFO - Description:verify connection button is displayed 
+2016-12-22 14:46:33,604 - Action - INFO - Element is present and displayed 
+2016-12-22 14:46:33,604 - Suite - INFO - End of the script:verifyLoginPage 
+2016-12-22 14:46:33,604 - Suite - INFO - End of the script:verifyLoginPage 
+2016-12-22 14:46:38,211 - Suite - INFO - Browser is: chrome 
+2016-12-22 14:46:38,212 - Utility - INFO - Reading property file:./setting.properties 
+2016-12-22 14:46:38,212 - Utility - INFO - Reading key:./setting.properties 
+2016-12-22 14:46:38,212 - Utility - INFO - key value is:http:192.168.229.128/dolibarr-3.3.1/htdocs/index.php 
+2016-12-22 14:46:40,757 - Suite - INFO - Executing the script:loginLogout 
+2016-12-22 14:46:40,821 - Script - INFO - Total No of steps5 
+2016-12-22 14:46:40,966 - Script - INFO - Description:Enter the valid user name 
+2016-12-22 14:46:41,246 - Script - INFO - Description:Enter the valid password 
+2016-12-22 14:46:41,462 - Script - INFO - Description:click on login button 
+2016-12-22 14:46:44,147 - Script - INFO - Description:clickon logout button 
+2016-12-22 14:46:45,230 - Script - INFO - Description:verify login title 
+2016-12-22 14:46:50,025 - Suite - INFO - Browser is: firefox 
+2016-12-22 14:46:51,144 - Utility - INFO - Reading property file:./setting.properties 
+2016-12-22 14:46:51,145 - Utility - INFO - Reading key:./setting.properties 
+2016-12-22 14:46:51,146 - Utility - INFO - key value is:http:192.168.229.128/dolibarr-3.3.1/htdocs/index.php 
+2016-12-22 14:46:54,308 - Suite - INFO - Executing the script:verifyLoginPage 
+2016-12-22 14:46:54,331 - Script - INFO - Total No of steps3 
+2016-12-22 14:46:54,434 - Script - INFO - Description:verify Logintext box is displayed 
+2016-12-22 14:46:54,703 - Action - INFO - Element is present and displayed 
+2016-12-22 14:46:54,785 - Script - INFO - Description:verify password is displayed 
+2016-12-22 14:46:54,809 - Action - INFO - Element is present and displayed 
+2016-12-22 14:46:54,889 - Script - INFO - Description:verify connection button is displayed 
+2016-12-22 14:46:54,915 - Action - INFO - Element is present and displayed 
+2016-12-22 14:46:54,915 - Suite - INFO - End of the script:verifyLoginPage 
+2016-12-22 14:46:54,916 - Suite - INFO - End of the script:verifyLoginPage 
+2016-12-22 14:46:55,410 - generics.TitleMIsmatchException - ERROR - Title is not matching:Expected-->DolibarrActual TitleLogin Dolibarr 3.3.1 
+2016-12-22 14:46:55,410 - Suite - INFO - Script execution fail:generics.TitleMIsmatchException 
+2016-12-22 14:46:56,697 - Suite - INFO - End of the script:loginLogout 
+2016-12-22 14:46:56,846 - Suite - INFO - Total pass:1 
+2016-12-22 14:46:56,846 - Suite - INFO - Totla Fail:1 
+2016-12-22 14:46:56,846 - Suite - INFO - Total Skip:3 
+2016-12-22 14:46:56,846 - Suite - INFO - Name of passed script=[verifyLoginPage] 
+2016-12-22 14:46:56,847 - Suite - INFO - Name of failed Script=loginLogout 
+2016-12-22 14:47:04,526 - Suite - INFO - Browser is: firefox 
+2016-12-22 14:47:04,610 - Utility - INFO - Reading property file:./setting.properties 
+2016-12-22 14:47:04,610 - Utility - INFO - Reading key:./setting.properties 
+2016-12-22 14:47:04,611 - Utility - INFO - key value is:http:192.168.229.128/dolibarr-3.3.1/htdocs/index.php 
+2016-12-22 14:47:05,792 - Suite - INFO - Executing the script:loginLogout 
+2016-12-22 14:47:05,819 - Script - INFO - Total No of steps5 
+2016-12-22 14:47:05,910 - Script - INFO - Description:Enter the valid user name 
+2016-12-22 14:47:06,507 - Script - INFO - Description:Enter the valid password 
+2016-12-22 14:47:08,153 - Script - INFO - Description:click on login button 
+2016-12-22 14:47:10,238 - Script - INFO - Description:clickon logout button 
+2016-12-22 14:47:10,483 - Script - INFO - Description:verify login title 
+2016-12-22 14:47:20,677 - generics.TitleMIsmatchException - ERROR - Title is not matching:Expected-->DolibarrActual TitleLogin Dolibarr 3.3.1 
+2016-12-22 14:47:20,677 - Suite - INFO - Script execution fail:generics.TitleMIsmatchException 
+2016-12-22 14:47:20,746 - Suite - INFO - End of the script:loginLogout 
+2016-12-22 14:47:20,762 - Suite - INFO - Total pass:1 
+2016-12-22 14:47:20,762 - Suite - INFO - Totla Fail:1 
+2016-12-22 14:47:20,762 - Suite - INFO - Total Skip:3 
+2016-12-22 14:47:20,762 - Suite - INFO - Name of passed script=[verifyLoginPage] 
+2016-12-22 14:47:20,762 - Suite - INFO - Name of failed Script=loginLogout 

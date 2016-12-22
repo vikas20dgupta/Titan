@@ -3,13 +3,16 @@ package main;
 
 import generics.ElementNotPresentException;
 import generics.ElementPresentException;
+import generics.TitleMIsmatchException;
 
 import java.util.List;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Action {
@@ -45,6 +48,20 @@ public static void verifyElementNotPresent(WebDriver driver,String input1){
 	else{
 		
 		l.info("Element is not present");
+	}
+}
+public static void verifyTitle(WebDriver driver,String input1){
+	
+	String expectedTitle=input1;
+	WebDriverWait wait=new WebDriverWait(driver, 10);
+	try{
+		wait.until(ExpectedConditions.titleIs(expectedTitle));
+		l.info("Title is mismatching");
+	}
+	catch(TimeoutException e){
+		String aTitle=driver.getTitle();
+		String msg="Title is not matching:Expected-->"+expectedTitle+"Actual Title"+aTitle;
+				throw new TitleMIsmatchException(msg);
 	}
 }
 }

@@ -23,6 +23,9 @@ public class Step {
 			
 			Action.verifyElementNotPresent(driver, input1);
 		}
+		else if(action.equalsIgnoreCase("verifyTitle")){
+			Action.verifyTitle(driver, input1);
+		}
 		else{
 			throw new InvalidActionException("invalid action:"+action);
 		}

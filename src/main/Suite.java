@@ -8,11 +8,12 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class Suite {
+public class Suite implements AutoConst{
 	
-	public static void executeSuite(){
+	public static void executeSuite(String browser){
 		
 		int passCount=0;
 		int failCount=0;
@@ -21,20 +22,32 @@ public class Suite {
 		ArrayList<String> passScript=new ArrayList<String>();
 		Logger l=Logger.getLogger("Suite");
 		
-		int scriptCount=Excel.getRowCount("./suite.xlsx","TestSet");
+		int scriptCount=Excel.getRowCount(SUITE_PATH,TEST_SET);
 		l.info("ScriptCount:"+scriptCount);
 		
 		
 		for(int i=1;i<=scriptCount;i++)
 		{
-			String scriptName=Excel.getCellValue("./suite.xlsx","TestSet", i, 0);
-			String scriptStatus=Excel.getCellValue("./suite.xlsx","TestSet", i, 1);
+			String scriptName=Excel.getCellValue(SUITE_PATH,TEST_SET, i, 0);
+			String scriptStatus=Excel.getCellValue(SUITE_PATH,TEST_SET, i, 1);
 			if(scriptStatus.equalsIgnoreCase("yes")){
+				WebDriver driver;
+				if(browser.equalsIgnoreCase("firefox")){
+					//System.setProperty(FIREFOX_KEY,FIREFOX_PATH);
+					driver=new FirefoxDriver();
+				}
+				else
+				{
+					System.setProperty(CHROME_KEY,CHROME_PATH);
+					driver=new ChromeDriver();
+				}
 				
-				WebDriver driver=new FirefoxDriver();
+				l.info("Browser is: "+browser);
+				//WebDriver driver=new FirefoxDriver();
 				driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 				//driver.get("http://127.0.0.1:8082/orangehrm/symfony/web/index.php/auth/login");
-				String url=Utility.getPropertyValue("./setting.properties", "URL");
+			
+				String url=Utility.getPropertyValue(SETTING_PATH, "URL");
 				driver.get(url);
 				l.info("Executing the script:"+scriptName);
 				try{
